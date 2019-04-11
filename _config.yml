@@ -81,8 +81,7 @@ theme: next
 deploy:
   type: leancloud_counter_security_sync
 
-
-
+# 阅读量统计
 leancloud_counter_security:
   enable_sync: true
   app_id: 6eLbTrCEFzVG3fC34POHg4i0-gzGzoHsz #<app_id>
@@ -90,3 +89,9 @@ leancloud_counter_security:
   username: wkk
   password: w123456
 
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
