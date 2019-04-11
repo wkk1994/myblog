@@ -1,7 +1,11 @@
 ---
 title: java并发
 date: 2019-04-10 14:46:46
+type: "tags"
 tags:
+  - java
+  - 并发
+categories: java
 ---
 
 # 一、线程状态的转换
