@@ -311,7 +311,7 @@ excerpt_description: true
 # Automatically Excerpt (Not recommend).
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Read more button
@@ -349,9 +349,9 @@ codeblock:
 
 # Wechat Subscriber
 wechat_subscriber:
-  enable: false
-  #qcode: /path/to/your/wechatqcode e.g. /uploads/wechat-qcode.jpg
-  #description: e.g. subscribe to my blog by scanning my public wechat account
+  enable: true
+  qcode: /uploads/website.png #e.g. /uploads/wechat-qcode.jpg
+  description: 扫一扫，用手机访问本站 #e.g. subscribe to my blog by scanning my public wechat account
 
 # Reward (Donate)
 reward_settings:
