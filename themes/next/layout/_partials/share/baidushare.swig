@@ -46,7 +46,7 @@
       },
       "slide": {
         "bdImg": "5",
-        "bdPos": "left",
+        "bdPos": "right",
         "bdTop": "100"
       }
     }

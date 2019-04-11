@@ -396,7 +396,7 @@
           </div>
         {% endif %}
 
-        {% if theme.likely.enable or (theme.needmoreshare2.enable and theme.needmoreshare2.postbottom.enable) or (theme.baidushare.type === "button") %}
+        {% if theme.likely.enable or (theme.needmoreshare2.enable and theme.needmoreshare2.postbottom.enable) or (theme.baidushare.type === "button") or theme.sharesdk %}
           {% if theme.rating.enable or (theme.vkontakte_api.enable and theme.vkontakte_api.like) or (theme.facebook_sdk.enable and theme.facebook_sdk.like_button) %}
             <span class="post-meta-divider">|</span>
           {% endif %}
@@ -417,6 +417,11 @@
               <div>
                 {% include '../_partials/share/baidushare.swig' %}
               </div>
+            {% endif %}
+            {% if theme.sharesdk %}
+                <div>
+                  {% include '../_partials/share/sharesdk.swig' %}
+               </div>
             {% endif %}
           </div>
         {% endif %}
