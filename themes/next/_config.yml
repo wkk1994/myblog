@@ -49,7 +49,7 @@ rss:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -143,7 +143,7 @@ exturl: false
 #baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 
 # ---------------------------------------------------------------
@@ -347,7 +347,7 @@ codeblock:
     # Style: only 'flat' is currently available, leave it blank if you prefer default theme
     style:
 
-# Wechat Subscriber
+# 网站二维码
 wechat_subscriber:
   enable: true
   qcode: /uploads/website.png #e.g. /uploads/wechat-qcode.jpg
@@ -810,7 +810,7 @@ leancloud_visitors:
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-  security: true
+  security: false
   betterPerformance: false
 
 # Another tool to show number of visitors to each article.
@@ -994,7 +994,7 @@ pace_theme: pace-theme-minimal
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 canvas_nest:
-  enable: true
+  enable: false
   onmobile: true # display on mobile or not
   color: "0,0,255" # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
@@ -1238,3 +1238,6 @@ live2d:
     height: 300
   mobile:
     show: true # 手机中是否展示
+# 对话框
+daovoice: true
+daovoice_app_id: 8368e439
